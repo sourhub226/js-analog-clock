@@ -1,11 +1,10 @@
 body {
-	margin: 0;
-	padding: 0;
-/*	uncomment for dark mode*/
-/*	background-color: #222;*/
+	margin: auto;
+	/*	uncomment for dark mode*/
+	/*	background-color: #222;*/
 }
 
-.clock {
+.clock-container {
 	width: 100vw;
 	height: 100vh;
 	display: flex;
@@ -13,8 +12,8 @@ body {
 	align-items: center;
 }
 
-.clock-container {
-/*	background-color: #111;*/
+.clock {
+	/*	background-color: #111;*/
 	width: 35vw;
 	height: 35vw;
 	background-image: url(clock.png);
