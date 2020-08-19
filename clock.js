@@ -1,3 +1,16 @@
+function preloadFunc() {
+	var clock = document.querySelector('.clock');
+	if (window.innerWidth > window.innerHeight) {
+		clock.style.width = "75vh";
+		clock.style.height = "75vh";
+	} else {
+		clock.style.width = "75vw";
+		clock.style.height = "75vw";
+	}
+}
+window.onpaint = preloadFunc();
+
+
 setInterval(function () {
 	d = new Date();
 	htime = d.getHours();

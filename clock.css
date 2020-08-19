@@ -13,9 +13,7 @@ body {
 }
 
 .clock {
-	/*	background-color: #111;*/
-	width: 35vw;
-	height: 35vw;
+	/*		background-color: #111;*/
 	background-image: url(clock.png);
 	background-size: 100%;
 	border-radius: 100%;
