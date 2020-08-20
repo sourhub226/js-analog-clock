@@ -1,7 +1,7 @@
 body {
 	margin: auto;
-	/*	uncomment for dark mode*/
-	/*	background-color: #222;*/
+/*	uncomment for dark mode*/
+/*	background-color: #222;*/
 }
 
 .clock-container {
@@ -13,9 +13,8 @@ body {
 }
 
 .clock {
-	/*		background-color: #111;*/
-	background-image: url(clock.png);
-	background-size: 100%;
+/*	background-color: #111;*/
+	background-image: url(clock.svg);
 	border-radius: 100%;
 	box-shadow: 0em -1.2em 1.2em rgba(255, 255, 255, 0.06),
 		inset 0em -1.2em 1.2em rgba(255, 255, 255, 0.06),
