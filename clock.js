@@ -7,6 +7,12 @@ function preloadFunc() {
 		clock.style.width = "75vw";
 		clock.style.height = "75vw";
 	}
+	time = new Date();
+	if (time.getHours() >= 18) {
+		document.querySelector("body").style.backgroundColor = "#222";
+	} else {
+		document.querySelector("body").style.backgroundColor = "#fff";
+	}
 }
 window.onpaint = preloadFunc();
 
