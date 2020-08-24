@@ -8,10 +8,10 @@ function preloadFunc() {
 		clock.style.height = "75vw";
 	}
 	time = new Date();
-	if (time.getHours() >= 18) {
-		document.querySelector("body").style.backgroundColor = "#222";
-	} else {
+	if (time.getHours() >= 6 && time.getHours() < 18) {
 		document.querySelector("body").style.backgroundColor = "#fff";
+	} else {
+		document.querySelector("body").style.backgroundColor = "#222";
 	}
 }
 window.onpaint = preloadFunc();
