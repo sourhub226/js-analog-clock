@@ -13,10 +13,9 @@ body {
 .clock {
 	background-image: url(clock.svg);
 	border-radius: 100%;
-	box-shadow: 0em -1.2em 1.2em rgba(255, 255, 255, 0.06),
-		inset 0em -1.2em 1.2em rgba(255, 255, 255, 0.06),
-		0em 1.2em 1.2em rgba(0, 0, 0, 0.3),
-		inset 0em 1.2em 1.2em rgba(0, 0, 0, 0.3);
+	box-shadow: 0 -1.2em 1.2em rgba(255, 255, 255, 0.06),
+		inset 0 -1.2em 1.2em rgba(255, 255, 255, 0.06),
+		0 1.2em 1.2em rgba(0, 0, 0, 0.3), inset 0 1.2em 1.2em rgba(0, 0, 0, 0.3);
 	position: relative;
 }
 
