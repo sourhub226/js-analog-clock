@@ -40,26 +40,26 @@ body {
 .dot {
 	width: 4%;
 	height: 4%;
-	background-color: #444;
+	background-color: #404144;
 	border-radius: 100%;
 	transform: translate(-50%, -50%);
 	z-index: 9;
 }
 
 .hours {
-	background-color: red;
+	background-color: #f54545;
 	width: 2.5%;
 	height: 25%;
 }
 
 .minutes {
-	background-color: #777;
+	background-color: #707174;
 	width: 1.3%;
 	height: 30%;
 }
 
 .seconds {
-	background-color: #777;
+	background-color: #707174;
 	width: 0.5%;
 	height: 35%;
 }
